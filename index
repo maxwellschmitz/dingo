@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<link href="styles/style.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<title>DINGO app 1</title>
+  	</head>
+
+	
+	<body>
+  
+		<h1>DINGO</h1>
+	
+		<img src="./images/dingologo.png">
+	
+		<div id= topline>
+			<p>d.i. on the go</p>
+		</div>
+		
+		<br>
+		
+		<div id= navbar>
+			<p><b><a href="./advisorhome.html">AGENT</a></b> | <b><a href="./index.html">HOME</a></b> | client</p>
+		</div>
+
+		<br>
+	
+		<div id= intro>
+			<p>CONGRATS ON YOUR DECISION TO PROTECT YOUR INCOME!</p>
+			<p>DINGO is a two-part questionnaire.</p> 
+			<p>Complete both sections, review your responses for accuracy, then click SUBMIT.</p>
+			<p>Within 24 hours you will receive a formal e-application to review and e-sign.</p>
+		</div>
+	
+		<br>
+		<br>
+		
+		<div id= registration>
+			<form action="action_page.php">
+				email
+					<br>
+					<input type="email" name="email" value="">
+					<br>
+				password
+					<br>
+					<input type="password" name="password" value="">
+					<br>
+				agent name
+					<br>
+					<input type="text" name="agentname" value="">
+					<br>
+					<br>
+			</form> 
+
+			<form action="./apply2.html">
+					<input type="submit" value="CONTINUE">
+			</form>
+
+		</div>
+	
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+	
+	</body>
+
+</html>
